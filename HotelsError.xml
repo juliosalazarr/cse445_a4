@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+
+<!--  XML Hotels File -->
+<Hotel>
+    <!--  Hotel 1 -->
+    <Hotel Rating = "4.2">                              <!--  optional attribute  -->
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearstAirport = "Sky Harbor">          <!--  required attribute  -->
+            <Number>11</Number>
+            <Street>E. 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <!--  Hotel 2 -->
+    <Hotel>
+        <Name>Hyatt Place Tempe</Name>
+        <Phone>480-207-1578</Phone>
+        <Phone>800-233-1234</Phone>
+        <Address NearstAirport = "Sky Harbor">
+            <Number>601</Number>
+            <Street>E. 6th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <!--  Hotel 3 -->
+    <Hotel Rating = "4.0">
+        <Name>Sonesta Simply Suites</Name>
+        <Phone>480-777-0440</Phone>
+        <Address NearstAirport = "Sky Harbor">
+            <Number>1335</Number>
+            <Street>W. Baseline Rd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85283</Zip>
+        </Address>
+    </Hotel>
+
+    <!--  Hotel 4 -->
+    <Hotel Rating = "4.5">
+        <Name>Hilton Garden Inn</Name>
+        <Phone>480-968-2180</Phone>
+        <Phone>888-446-6677</Phone>
+        <Address NearstAirport = "Sky Harbor">
+            <Number>86</Number>
+            <Street>S. Rockford Dr</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <!--  Hotel 5 -->
+    <Hotel>
+        <Name>La Quinta Inn and Suites</Name>
+        <Phone>480-844-8747</Phone>
+        <Address>
+            <Number>902</Number>
+            <Street>W. Grove Ave</Street>
+            <City>Mesa</City>
+            <State>AZ</State>
+            <Zip>85210</Zip>
+        </Address>
+    </Hotel>
+
+    <!--  Hotel 6 -->
+    <Hotel Rating = "4.3">
+        <Name>DoubleTree by Hilton</Name>
+        <Phone>480-833-5555</Phone>
+        <Address NearstAirport = "Sky Harbor">
+            <Number>1011</Number>
+            <Street>W. Holmes Ave</Street>
+            <City>Mesa</City>
+            <State>AZ</State>
+            <Zip>85210</Zip>
+        </Address>
+    </Hotel>
+
+    <!--  Hotel 7 -->
+    <Hotel>
+        <Name>Hyatt Place Phoenix / Downtown</Name>
+        <Phone>602-388-4888</Phone>
+        <Address NearstAirport = "Sky Harbor">
+            <Number>150</Number>
+            <Street>W. Adams St</Street>
+            <City>Phoneix</City>
+            <State>AZ</State>
+            <Zip>95003</Zip>
+        </Address>
+    </Hotel>
+
+    <!--  Hotel 8 -->
+    <Hotel Rating = "4.4">
+        <Name>The Westin Phoenix Downtown</Name>
+        <Phone>602-429-3500</Phone>
+        <Phone>800-627-7468</Phone>
+        <Address NearstAirport = "Sky Harbor">
+            <Number>333</Number>
+            <Street>N. Central Ave</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+
+    <!--  Hotel 9 -->
+    <Hotel Rating = "4.2">
+        <Name>Cambria Hotel Phoenix - North Scottsdale</Name>
+        <Address NearstAirport = "Sky Harbor">
+            <Number>4425</Number>
+            <Street>E. Irma Ln</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85050</Zip>
+        </Address>
+    </Hotel>
+
+    <!--  Hotel 10 -->
+    <Hotel>
+        <Name>Hampton Inn and Suites Phoenix Downtown</Name>
+        <Phone>602-710-1240</Phone>
+        <Address NearstAirport = "Sky Harbor">
+            <Number>77</Number>
+            <Street>E. Polk St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+    </Hotel>
+
+    <!--  Hotel 11 -->
+    <Hotel Rating = "4.3">
+        <Name>Marriott Phoenix Airport</Name>
+        <Name>Marriott Downtown Phoenix Airport</Name>
+        <Phone>602-273-7373</Phone>
+        <Phone>800-535-4028</Phone>
+        <Address NearstAirport = "Sky Harbor">
+            <Number>1101</Number>
+            <Street>N 44th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85008</Zip>
+        </Address>
+    </Hotel>
+</Hotel>

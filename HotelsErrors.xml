@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <!--  XML Hotels File -->
-<Hotel>
+<Hotel>         <!--  The root element name is Hotel, instead of Hotels -->
     <!--  Hotel 1 -->
     <Hotel Rating = "4.2">                              <!--  optional attribute  -->
         <Name>Westin</Name>
@@ -61,7 +61,7 @@
     <Hotel>
         <Name>La Quinta Inn and Suites</Name>
         <Phone>480-844-8747</Phone>
-        <Address>
+        <Address>           <!--  A required attribute is missing -->
             <Number>902</Number>
             <Street>W. Grove Ave</Street>
             <City>Mesa</City>
@@ -113,6 +113,7 @@
     <!--  Hotel 9 -->
     <Hotel Rating = "4.2">
         <Name>Cambria Hotel Phoenix - North Scottsdale</Name>
+        <!-- <Phone>480-480-7395</Phone> -->       <!--  A phone element is missing on one of the hotels. -->
         <Address NearstAirport = "Sky Harbor">
             <Number>4425</Number>
             <Street>E. Irma Ln</Street>
@@ -132,13 +133,13 @@
             <City>Phoenix</City>
             <State>AZ</State>
             <Zip>85004</Zip>
-        </Address>
+        <!--  </Address> -->            <!--  An Address elect has no closing tag -->
     </Hotel>
 
     <!--  Hotel 11 -->
     <Hotel Rating = "4.3">
         <Name>Marriott Phoenix Airport</Name>
-        <Name>Marriott Downtown Phoenix Airport</Name>
+        <Name>Marriott Downtown Phoenix Airport</Name>          <!--  Two names are provided for one of the hotels -->
         <Phone>602-273-7373</Phone>
         <Phone>800-535-4028</Phone>
         <Address NearstAirport = "Sky Harbor">

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <!--  XML Hotels File -->
-<Hotels>         <!--  The root element name is Hotel, instead of Hotels -->
+<Hotel>         <!--  The root element name is Hotel, instead of Hotels -->
     <!--  Hotel 1 -->
     <Hotel Rating = "4.2">                              <!--  optional attribute  -->
         <Name>Westin</Name>
@@ -133,7 +133,7 @@
             <City>Phoenix</City>
             <State>AZ</State>
             <Zip>85004</Zip>
-            </Address>          <!--  An Address elect has no closing tag -->
+            <!--  </Address> -->          <!--  An Address elect has no closing tag -->
     </Hotel>
 
     <!--  Hotel 11 -->

@@ -127,13 +127,13 @@
     <Hotel>
         <Name>Hampton Inn and Suites Phoenix Downtown</Name>
         <Phone>602-710-1240</Phone>
-        <Address NearstAirport = "Sky Harbor">
+        <Address NearstAirport = "Sky Harbor"             <!--  An Address elect has no closing tag -->
             <Number>77</Number>
             <Street>E. Polk St</Street>
             <City>Phoenix</City>
             <State>AZ</State>
             <Zip>85004</Zip>
-            <!--  </Address> -->          <!--  An Address elect has no closing tag -->
+            </Address>
     </Hotel>
 
     <!--  Hotel 11 -->
@@ -150,4 +150,4 @@
             <Zip>85008</Zip>
         </Address>
     </Hotel>
-</Hotels>
+</Hotel>
